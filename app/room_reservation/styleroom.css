@@ -1,0 +1,8 @@
+@media (max-width: 766px) {
+  .flex-auto {
+    flex: 1; /* ทำให้ Link ครอบเรื่องราวแต่ละอันอยู่ในแถวเดียว */
+  }
+  .md\:flex-row {
+    flex-direction: column; /* เปลี่ยนเรียงลำดับให้อยู่ในแถวเดียว */
+  }
+}

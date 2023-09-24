@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,600&display=swap");
+
+/* :root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+*/
+body {
+  font-family: "puppins", sans-serif;
+}
+
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("/my-app/app/assets/Bgg.png");
+}
+body {
+  -ms-overflow-style: none !important;
+  scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+  display: none !important;
+}
+th.col-span-5 {
+  grid-column: 1 / span 5;
+}
