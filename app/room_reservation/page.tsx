@@ -21,12 +21,12 @@ export default function Room_Reservation() {
       >
         <div
           className="px-6 pt-10 pb-8 text-center text-xl font-bold"
-          style={{
-            left: 156,
-            top: -18,
-            background: "#FFE972",
-            borderRadius: 37,
-          }}
+          // style={{
+          //   left: 156,
+          //   top: -18,
+          //   background: "#FFE972",
+          //   borderRadius: 37,
+          // }}
         >
           สำหรับ 4 ท่าน
         </div>
@@ -53,12 +53,12 @@ export default function Room_Reservation() {
       >
         <div
           className="px-6 pt-10 pb-8 text-center text-xl font-bold"
-          style={{
-            left: 156,
-            top: -18,
-            background: "#FFE972",
-            borderRadius: 37,
-          }}
+          // style={{
+          //   left: 156,
+          //   top: -18,
+          //   background: "#FFE972",
+          //   borderRadius: 37,
+          // }}
         >
           สำหรับ 2 ท่าน
         </div>
