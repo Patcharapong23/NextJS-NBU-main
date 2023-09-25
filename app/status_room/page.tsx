@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-
+import "./status_room.css";
 type Room = {
   roomNumber: string;
   status: string;
@@ -185,7 +185,7 @@ export default function Status_room() {
             <option value="8">ชั้น 8</option>
           </select>
         </div>
-        <div className="overflow-x-auto">
+        <div className="overflow-x-auto Box-room">
           <table className="table-auto min-w-max w-full border-collapse border border-green-800">
             <thead className="text-center font-normal">
               <tr className="bg-[#FFC79E]">
