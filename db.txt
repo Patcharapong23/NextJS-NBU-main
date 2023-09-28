@@ -1,0 +1,148 @@
+{
+  "Room_Floor2": [
+    {
+      "roomNumber": "201",
+      "status": "ว่าง",
+      "quantity": "3/4",
+      "cost": "15,000",
+      "type": "ธรรมดา"
+    },
+    {
+      "roomNumber": "202",
+      "status": "ว่าง",
+      "quantity": "3/4",
+      "cost": "15,000",
+      "type": "ธรรมดา"
+    },
+    {
+      "roomNumber": "203",
+      "status": "ว่าง",
+      "quantity": "3/4",
+      "cost": "15,000",
+      "type": "ธรรมดา"
+    },
+    {
+      "roomNumber": "204",
+      "status": "ว่าง",
+      "quantity": "3/4",
+      "cost": "15,000",
+      "type": "ธรรมดา"
+    },
+    {
+      "roomNumber": "205",
+      "status": "ว่าง",
+      "quantity": "3/4",
+      "cost": "15,000",
+      "type": "ธรรมดา"
+    },
+    {
+      "roomNumber": "206",
+      "status": "ว่าง",
+      "quantity": "3/4",
+      "cost": "15,000",
+      "type": "ธรรมดา"
+    },
+    {
+      "roomNumber": "207",
+      "status": "ว่าง",
+      "quantity": "3/4",
+      "cost": "15,000",
+      "type": "ธรรมดา"
+    },
+    {
+      "roomNumber": "208",
+      "status": "ว่าง",
+      "quantity": "3/4",
+      "cost": "15,000",
+      "type": "ธรรมดา"
+    },
+    {
+      "roomNumber": 209,
+      "status": "ว่าง",
+      "quantity": "3/4",
+      "cost": "15,000",
+      "type": "ธรรมดา"
+    },
+    {
+      "roomNumber": 210,
+      "status": "ว่าง",
+      "quantity": "3/4",
+      "cost": "15,000",
+      "type": "ธรรมดา"
+    },
+    {
+      "roomNumber": 211,
+      "status": "ว่าง",
+      "quantity": "3/4",
+      "cost": "15,000",
+      "type": "ธรรมดา"
+    },
+    {
+      "roomNumber": 212,
+      "status": "ว่าง",
+      "quantity": "3/4",
+      "cost": "15,000",
+      "type": "ธรรมดา"
+    },
+    {
+      "roomNumber": 213,
+      "status": "ว่าง",
+      "quantity": "3/4",
+      "cost": "15,000",
+      "type": "ธรรมดา"
+    },
+    {
+      "roomNumber": 214,
+      "status": "ว่าง",
+      "quantity": "3/4",
+      "cost": "15,000",
+      "type": "ธรรมดา"
+    },
+    {
+      "roomNumber": 215,
+      "status": "ว่าง",
+      "quantity": "3/4",
+      "cost": "15,000",
+      "type": "ธรรมดา"
+    },
+    {
+      "roomNumber": 216,
+      "status": "ว่าง",
+      "quantity": "3/4",
+      "cost": "15,000",
+      "type": "ธรรมดา"
+    }
+  ],
+  "Room_Floor3": [
+    {
+      "roomNumber": 301,
+      "status": "ว่าง",
+      "quantity": "3/4",
+      "cost": "15,000",
+      "type": "ธรรมดา"
+    }
+  ],
+  "Room_Floor4": [
+    {
+      "roomNumber": "401",
+      "status": "ว่าง",
+      "quantity": "3/4",
+      "cost": "15,000",
+      "type": "ธรรมดา"
+    },
+    {
+      "roomNumber": "402",
+      "status": "ว่าง",
+      "quantity": "3/4",
+      "cost": "15,000",
+      "type": "ธรรมดา"
+    },
+    {
+      "roomNumber": "403",
+      "status": "ว่าง",
+      "quantity": "3/4",
+      "cost": "15,000",
+      "type": "ธรรมดา"
+    }
+  ]
+}

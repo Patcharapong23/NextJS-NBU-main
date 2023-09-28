@@ -1,21 +1,18 @@
 /* eslint-disable @next/next/no-async-client-component */
 "use client";
-
 import React, { useState, useEffect } from "react";
-
 interface Room {
   // Define the properties of your Room type
 }
 
 interface RoomData {
-  map(arg0: (room: any) => React.JSX.Element): React.ReactNode;
+  [x: string]: any;
   roomNumber: string;
   status: string;
   quantity: string;
   cost: string;
   type: string;
 }
-import "./status_room.css";
 
 export default function Status_room({}: Room) {
   const [selected, setSelected] = useState<string>("2");

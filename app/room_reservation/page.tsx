@@ -16,7 +16,7 @@ export default function Room_Reservation() {
   return (
     <div className="flex flex-auto md:flex-row justify-center items-center h-full gap-6 sm:gap-6 p-10 mt-24 ">
       <Link
-        href="/status_room"
+        href="/Apitest"
         className="relative bg-[#F5EDDC] max-w-lg rounded-[55px] overflow-hidden shadow-xl ring-1 ring-gray-900/5 mx-4 p-4 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#F5EDDC] duration-300 "
       >
         <div

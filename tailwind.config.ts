@@ -8,7 +8,7 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      darkMode: "class",
+      // darkMode: "class",
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
@@ -16,6 +16,12 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
+  daisyui: {
+    themes: ["light", "dark", "cupcake"],
+  },
 };
+
+//...
+
 export default config;
