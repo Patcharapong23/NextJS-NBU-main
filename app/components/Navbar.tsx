@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+
 import { useState } from "react";
 import Link from "next/link";
 
@@ -7,7 +8,7 @@ import { FaHome } from "react-icons/fa";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { MdBedroomParent } from "react-icons/md";
 import { BsPersonCircle } from "react-icons/bs";
-import Logo from "../assets/Northbkk.png";
+import LogoNBU from "../assets/Northbkk.png";
 
 export default function Navbar() {
   const [menuIcon, setIcon] = useState(false);
@@ -22,27 +23,27 @@ export default function Navbar() {
       <nav className="max-w-{1366px} mx-auto h-{100px} flex justify-between items-center p-4">
         <div>
           <Link href="/" onClick={handleSmallerScreensNavigation}>
-            <span className="flex items-center">
-              <Image alt="logo" src={Logo} layout="responsive" sizes="40px" />
-              <span className="  min-w-full  font-bold text-3xl md:text-2xl xl:text-2xl ml-2 justify-between">
+            <div className="flex items-center">
+              <Image alt="Oogo" src={LogoNBU} sizes="40px" />
+              <span className="  min-w-full  font-bold text-3xl md:text-2xl xl:text-2xl ml-2 justify-between font-puppins">
                 NBU DMS
               </span>
-            </span>
+            </div>
           </Link>
         </div>
         <ul className="hidden md:flex font-sembold text-1xl lg-text-[20px] text-[#707070] items-center">
           <li className="mr-4 lg:mr-8 hover:text-[#E4965D] bg-clip-text border-b-2 border-transparent hover:border-[#E4965D]  ">
             <Link href="/" className="flex items-center gap-2 text-lg">
-              <FaHome /> Home
+              <FaHome /> หน้าหลัก
             </Link>
           </li>
           <li className="mr-4 lg:mr-8 hover:text-[#E4965D] bg-clip-text border-b-2 border-transparent hover:border-[#E4965D]">
             <Link
-              href="/room_reservation"
+              href="/Page/room_reservation"
               className="flex items-center gap-2 text-lg"
             >
               <MdBedroomParent />
-              Reservation
+              การเช่าห้อง
             </Link>
           </li>
           <li className="mr-4 lg:mr-8 hover:text-[#E4965D] seticon">
@@ -74,13 +75,13 @@ export default function Navbar() {
                 onClick={handleSmallerScreensNavigation}
                 className=" py-5 hover:text-[#ffff] cursor-pointer"
               >
-                <Link href="/">home</Link>
+                <Link href="/">หน้าหลัก</Link>
               </li>
               <li
                 onClick={handleSmallerScreensNavigation}
                 className=" py-5 hover:text-[#ffff] cursor-pointer"
               >
-                <Link href="/room_reservation">Reservation</Link>
+                <Link href="/Page/room_reservation">การเช่าห้อง</Link>
               </li>
             </ul>
           </div>

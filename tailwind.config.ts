@@ -8,6 +8,11 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ["Open Sans", "sans-serif"],
+        puppins: ["puppins"],
+        BaiphaiThin: ["BaiphaiThin"],
+      },
       // darkMode: "class",
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

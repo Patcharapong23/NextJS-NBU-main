@@ -6,3 +6,6 @@
     flex-direction: column; /* เปลี่ยนเรียงลำดับให้อยู่ในแถวเดียว */
   }
 }
+font {
+  font-family: "BaiphaiThin", sans-serif;
+}

@@ -1,5 +1,5 @@
 import React from "react";
-import Baruser from "../components/Baruser";
+import Baruser from "../../components/Baruser";
 export const metadata = {
   title: "Tabbar",
   description: "Generated for the Tabbar page",

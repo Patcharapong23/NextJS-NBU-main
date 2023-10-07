@@ -5,8 +5,8 @@ import Link from "next/link";
 import "./Apitest.css";
 
 interface Room {
-  Faculty: any;
-  Department: any;
+  Faculty: string;
+  Department: string;
   roomNumber: string;
   status: string;
   quantity: string;
@@ -17,7 +17,6 @@ interface Room {
 const UsersPage: React.FC = () => {
   const [selected, setSelected] = useState(2);
   const [roomData, setRoomData] = useState<Room[]>([]);
-
   useEffect(() => {
     const fetchData = async () => {
       try {
@@ -26,7 +25,14 @@ const UsersPage: React.FC = () => {
         );
         if (res.ok) {
           const data: Room[] = await res.json();
-          setRoomData(data);
+
+          // Check quantity and set status accordingly
+          const updatedData = data.map((room) => ({
+            ...room,
+            status: room.quantity === "4/4" ? "ไม่ว่าง" : "ว่าง",
+          }));
+
+          setRoomData(updatedData);
         } else {
           setRoomData([]); // Set roomData to empty array if there's no data
         }
@@ -45,8 +51,8 @@ const UsersPage: React.FC = () => {
   const handleRoomClick = (roomNumber: string) => {
     setRoomData((prevRoomData) =>
       prevRoomData.map((room) =>
-        room.roomNumber === roomNumber
-          ? { ...room, status: room.status === "ว่าง" ? "ไม่ว่าง" : "ว่าง" }
+        room.roomNumber === roomNumber && room.quantity !== "4/4"
+          ? { ...room, status: "ว่าง" }
           : room
       )
     );
@@ -88,7 +94,7 @@ const UsersPage: React.FC = () => {
                     <tr key={room.roomNumber} className="text-center">
                       <td>
                         <Link
-                          href={`/TestMenu?roomNumber=${room.roomNumber}&status=${room.status}&quantity=${room.quantity}&faculty=${room.Faculty}&department=${room.Department}`}
+                          href={`/Page/Tabbar?roomNumber=${room.roomNumber}`}
                         >
                           <button
                             onClick={
